@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<datapoints>
+  <object name="FanTray">
+    <ReadWriteProperty name="FanSpeed" type="float" value="0.0" />
+  </object>
+  <object name="Output">
+    <object name="Channel">
+      <object name="0">
+        <WriteOnlyProperty name="ClearEvents" type="bool" value="false" />
+        <object name="Config">
+          <ReadWriteProperty name="GlobalInhibitDisable" type="int" value="0" />
+          <ReadWriteProperty name="InternalSense" type="int" value="0" />
+          <ReadWriteProperty name="LocalInhibitEnable" type="int" value="0" />
+          <ReadWriteProperty name="RegulationMode" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOffFast" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOnAutomatic" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOnSupervisionDelay" type="int" value="0" />
+        </object>
+        <ReadWriteProperty name="Current" type="float" value="0.0" />
+        <ReadWriteProperty name="CurrentFallRate" type="float" value="0.0" />
+        <ReadWriteProperty name="CurrentRiseRate" type="float" value="0.0" />
+        <ReadWriteProperty name="GroupNumber" type="int" value="0" />
+        <ReadOnlyProperty name="MeasurementCurrent" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementSenseVoltage" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementTemperature" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementTerminalVoltage" type="float" value="0.0" />
+        <ReadOnlyProperty name="Name" type="string" value="U0" />
+        <ReadWriteProperty name="OnOff" type="bool" value="false" />
+        <ReadWriteProperty name="RegulationMode" type="int" value="0" />
+        <object name="Status">
+          <ReadOnlyProperty name="Adjusting" type="bool" value="false" />
+          <ReadOnlyProperty name="ConstantPower" type="bool" value="false" />
+          <ReadOnlyProperty name="ConstantVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentBoundsExceeded" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentDecreasing" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentIncreasing" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentLimited" type="bool" value="false" />
+          <ReadOnlyProperty name="EmergencyOff" type="bool" value="false" />
+          <ReadOnlyProperty name="EnableKill" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureCacheUpdate" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureCurrentLimit" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxCurrent" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxPower" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxSenseVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxTemperature" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxTerminalVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMinSenseVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureTimeout" type="bool" value="false" />
+          <ReadOnlyProperty name="Inhibit" type="bool" value="false" />
+          <ReadOnlyProperty name="InitCrcCheckBad" type="bool" value="false" />
+          <ReadOnlyProperty name="LowCurrentRange" type="bool" value="false" />
+          <ReadOnlyProperty name="On" type="bool" value="false" />
+          <ReadOnlyProperty name="RampDown" type="bool" value="false" />
+          <ReadOnlyProperty name="RampUp" type="bool" value="false" />
+          <ReadOnlyProperty name="VoltageBottomReached" type="bool" value="false" />
+          <ReadOnlyProperty name="VoltageRampSpeedLimited" type="bool" value="false" />
+        </object>
+        <object name="SupervisionBehavior">
+          <ReadWriteProperty name="Inhibit" type="int" value="0" />
+          <ReadWriteProperty name="MaxCurrent" type="float" value="0" />
+          <ReadWriteProperty name="MaxPower" type="float" value="0" />
+          <ReadWriteProperty name="MaxSenseVoltage" type="float" value="0" />
+          <ReadWriteProperty name="MaxTemperature" type="float" value="0" />
+          <ReadWriteProperty name="MaxTerminalVoltage" type="float" value="0" />
+          <ReadWriteProperty name="MinSenseVoltage" type="float" value="0" />
+          <ReadWriteProperty name="Timeout" type="int" value="0" />
+        </object>
+        <ReadWriteProperty name="SupervisionMaxCurrent" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMaxTerminalVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMaxSenseVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMinSenseVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="TripTimeMaxCurrent" type="float" value="0.0" />
+        <ReadWriteProperty name="Voltage" type="float" value="0.0" />
+        <ReadWriteProperty name="VoltageFallRate" type="float" value="10.0" />
+        <ReadWriteProperty name="VoltageRiseRate" type="float" value="10.0" />
+      </object>
+      <object name="1">
+        <WriteOnlyProperty name="ClearEvents" type="bool" value="false" />
+        <object name="Config">
+          <ReadWriteProperty name="GlobalInhibitDisable" type="int" value="0" />
+          <ReadWriteProperty name="InternalSense" type="int" value="0" />
+          <ReadWriteProperty name="LocalInhibitEnable" type="int" value="0" />
+          <ReadWriteProperty name="RegulationMode" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOffFast" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOnAutomatic" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOnSupervisionDelay" type="int" value="0" />
+        </object>
+        <ReadWriteProperty name="Current" type="float" value="0.0" />
+        <ReadWriteProperty name="CurrentFallRate" type="float" value="0.0" />
+        <ReadWriteProperty name="CurrentRiseRate" type="float" value="0.0" />
+        <ReadWriteProperty name="GroupNumber" type="int" value="0" />
+        <ReadOnlyProperty name="MeasurementCurrent" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementSenseVoltage" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementTemperature" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementTerminalVoltage" type="float" value="0.0" />
+        <ReadOnlyProperty name="Name" type="string" value="U0" />
+        <ReadWriteProperty name="OnOff" type="bool" value="false" />
+        <ReadWriteProperty name="RegulationMode" type="int" value="0" />
+        <object name="Status">
+          <ReadOnlyProperty name="Adjusting" type="bool" value="false" />
+          <ReadOnlyProperty name="ConstantPower" type="bool" value="false" />
+          <ReadOnlyProperty name="ConstantVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentBoundsExceeded" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentDecreasing" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentIncreasing" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentLimited" type="bool" value="false" />
+          <ReadOnlyProperty name="EmergencyOff" type="bool" value="false" />
+          <ReadOnlyProperty name="EnableKill" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureCacheUpdate" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureCurrentLimit" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxCurrent" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxPower" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxSenseVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxTemperature" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxTerminalVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMinSenseVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureTimeout" type="bool" value="false" />
+          <ReadOnlyProperty name="Inhibit" type="bool" value="false" />
+          <ReadOnlyProperty name="InitCrcCheckBad" type="bool" value="false" />
+          <ReadOnlyProperty name="LowCurrentRange" type="bool" value="false" />
+          <ReadOnlyProperty name="On" type="bool" value="false" />
+          <ReadOnlyProperty name="RampDown" type="bool" value="false" />
+          <ReadOnlyProperty name="RampUp" type="bool" value="false" />
+          <ReadOnlyProperty name="VoltageBottomReached" type="bool" value="false" />
+          <ReadOnlyProperty name="VoltageRampSpeedLimited" type="bool" value="false" />
+        </object>
+        <object name="SupervisionBehavior">
+          <ReadWriteProperty name="Inhibit" type="int" value="0" />
+          <ReadWriteProperty name="MaxCurrent" type="float" value="0" />
+          <ReadWriteProperty name="MaxPower" type="float" value="0" />
+          <ReadWriteProperty name="MaxSenseVoltage" type="float" value="0" />
+          <ReadWriteProperty name="MaxTemperature" type="float" value="0" />
+          <ReadWriteProperty name="MaxTerminalVoltage" type="float" value="0" />
+          <ReadWriteProperty name="MinSenseVoltage" type="float" value="0" />
+          <ReadWriteProperty name="Timeout" type="int" value="0" />
+        </object>
+        <ReadWriteProperty name="SupervisionMaxCurrent" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMaxTerminalVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMaxSenseVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMinSenseVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="TripTimeMaxCurrent" type="float" value="0.0" />
+        <ReadWriteProperty name="Voltage" type="float" value="0.0" />
+        <ReadWriteProperty name="VoltageFallRate" type="float" value="10.0" />
+        <ReadWriteProperty name="VoltageRiseRate" type="float" value="10.0" />
+      </object>
+      <object name="2">
+        <WriteOnlyProperty name="ClearEvents" type="bool" value="false" />
+        <object name="Config">
+          <ReadWriteProperty name="GlobalInhibitDisable" type="int" value="0" />
+          <ReadWriteProperty name="InternalSense" type="int" value="0" />
+          <ReadWriteProperty name="LocalInhibitEnable" type="int" value="0" />
+          <ReadWriteProperty name="RegulationMode" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOffFast" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOnAutomatic" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOnSupervisionDelay" type="int" value="0" />
+        </object>
+        <ReadWriteProperty name="Current" type="float" value="0.0" />
+        <ReadWriteProperty name="CurrentFallRate" type="float" value="0.0" />
+        <ReadWriteProperty name="CurrentRiseRate" type="float" value="0.0" />
+        <ReadWriteProperty name="GroupNumber" type="int" value="0" />
+        <ReadOnlyProperty name="MeasurementCurrent" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementSenseVoltage" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementTemperature" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementTerminalVoltage" type="float" value="0.0" />
+        <ReadOnlyProperty name="Name" type="string" value="U0" />
+        <ReadWriteProperty name="OnOff" type="bool" value="false" />
+        <ReadWriteProperty name="RegulationMode" type="int" value="0" />
+        <object name="Status">
+          <ReadOnlyProperty name="Adjusting" type="bool" value="false" />
+          <ReadOnlyProperty name="ConstantPower" type="bool" value="false" />
+          <ReadOnlyProperty name="ConstantVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentBoundsExceeded" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentDecreasing" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentIncreasing" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentLimited" type="bool" value="false" />
+          <ReadOnlyProperty name="EmergencyOff" type="bool" value="false" />
+          <ReadOnlyProperty name="EnableKill" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureCacheUpdate" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureCurrentLimit" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxCurrent" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxPower" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxSenseVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxTemperature" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxTerminalVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMinSenseVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureTimeout" type="bool" value="false" />
+          <ReadOnlyProperty name="Inhibit" type="bool" value="false" />
+          <ReadOnlyProperty name="InitCrcCheckBad" type="bool" value="false" />
+          <ReadOnlyProperty name="LowCurrentRange" type="bool" value="false" />
+          <ReadOnlyProperty name="On" type="bool" value="false" />
+          <ReadOnlyProperty name="RampDown" type="bool" value="false" />
+          <ReadOnlyProperty name="RampUp" type="bool" value="false" />
+          <ReadOnlyProperty name="VoltageBottomReached" type="bool" value="false" />
+          <ReadOnlyProperty name="VoltageRampSpeedLimited" type="bool" value="false" />
+        </object>
+        <object name="SupervisionBehavior">
+          <ReadWriteProperty name="Inhibit" type="int" value="0" />
+          <ReadWriteProperty name="MaxCurrent" type="float" value="0" />
+          <ReadWriteProperty name="MaxPower" type="float" value="0" />
+          <ReadWriteProperty name="MaxSenseVoltage" type="float" value="0" />
+          <ReadWriteProperty name="MaxTemperature" type="float" value="0" />
+          <ReadWriteProperty name="MaxTerminalVoltage" type="float" value="0" />
+          <ReadWriteProperty name="MinSenseVoltage" type="float" value="0" />
+          <ReadWriteProperty name="Timeout" type="int" value="0" />
+        </object>
+        <ReadWriteProperty name="SupervisionMaxCurrent" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMaxTerminalVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMaxSenseVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMinSenseVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="TripTimeMaxCurrent" type="float" value="0.0" />
+        <ReadWriteProperty name="Voltage" type="float" value="0.0" />
+        <ReadWriteProperty name="VoltageFallRate" type="float" value="10.0" />
+        <ReadWriteProperty name="VoltageRiseRate" type="float" value="10.0" />
+      </object>
+      <object name="3">
+        <WriteOnlyProperty name="ClearEvents" type="bool" value="false" />
+        <object name="Config">
+          <ReadWriteProperty name="GlobalInhibitDisable" type="int" value="0" />
+          <ReadWriteProperty name="InternalSense" type="int" value="0" />
+          <ReadWriteProperty name="LocalInhibitEnable" type="int" value="0" />
+          <ReadWriteProperty name="RegulationMode" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOffFast" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOnAutomatic" type="int" value="0" />
+          <ReadWriteProperty name="SwitchOnSupervisionDelay" type="int" value="0" />
+        </object>
+        <ReadWriteProperty name="Current" type="float" value="0.0" />
+        <ReadWriteProperty name="CurrentFallRate" type="float" value="0.0" />
+        <ReadWriteProperty name="CurrentRiseRate" type="float" value="0.0" />
+        <ReadWriteProperty name="GroupNumber" type="int" value="0" />
+        <ReadOnlyProperty name="MeasurementCurrent" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementSenseVoltage" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementTemperature" type="float" value="0.0" />
+        <ReadOnlyProperty name="MeasurementTerminalVoltage" type="float" value="0.0" />
+        <ReadOnlyProperty name="Name" type="string" value="U0" />
+        <ReadWriteProperty name="OnOff" type="bool" value="false" />
+        <ReadWriteProperty name="RegulationMode" type="int" value="0" />
+        <object name="Status">
+          <ReadOnlyProperty name="Adjusting" type="bool" value="false" />
+          <ReadOnlyProperty name="ConstantPower" type="bool" value="false" />
+          <ReadOnlyProperty name="ConstantVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentBoundsExceeded" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentDecreasing" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentIncreasing" type="bool" value="false" />
+          <ReadOnlyProperty name="CurrentLimited" type="bool" value="false" />
+          <ReadOnlyProperty name="EmergencyOff" type="bool" value="false" />
+          <ReadOnlyProperty name="EnableKill" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureCacheUpdate" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureCurrentLimit" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxCurrent" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxPower" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxSenseVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxTemperature" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMaxTerminalVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureMinSenseVoltage" type="bool" value="false" />
+          <ReadOnlyProperty name="FailureTimeout" type="bool" value="false" />
+          <ReadOnlyProperty name="Inhibit" type="bool" value="false" />
+          <ReadOnlyProperty name="InitCrcCheckBad" type="bool" value="false" />
+          <ReadOnlyProperty name="LowCurrentRange" type="bool" value="false" />
+          <ReadOnlyProperty name="On" type="bool" value="false" />
+          <ReadOnlyProperty name="RampDown" type="bool" value="false" />
+          <ReadOnlyProperty name="RampUp" type="bool" value="false" />
+          <ReadOnlyProperty name="VoltageBottomReached" type="bool" value="false" />
+          <ReadOnlyProperty name="VoltageRampSpeedLimited" type="bool" value="false" />
+        </object>
+        <object name="SupervisionBehavior">
+          <ReadWriteProperty name="Inhibit" type="int" value="0" />
+          <ReadWriteProperty name="MaxCurrent" type="float" value="0.0" />
+          <ReadWriteProperty name="MaxPower" type="float" value="0" />
+          <ReadWriteProperty name="MaxSenseVoltage" type="float" value="0" />
+          <ReadWriteProperty name="MaxTemperature" type="float" value="0" />
+          <ReadWriteProperty name="MaxTerminalVoltage" type="float" value="0" />
+          <ReadWriteProperty name="MinSenseVoltage" type="float" value="0" />
+          <ReadWriteProperty name="Timeout" type="int" value="0" />
+        </object>
+        <ReadWriteProperty name="SupervisionMaxCurrent" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMaxTerminalVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMaxSenseVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="SupervisionMinSenseVoltage" type="float" value="0.0" />
+        <ReadWriteProperty name="TripTimeMaxCurrent" type="float" value="0.0" />
+        <ReadWriteProperty name="Voltage" type="float" value="0.0" />
+        <ReadWriteProperty name="VoltageFallRate" type="float" value="10.0" />
+        <ReadWriteProperty name="VoltageRiseRate" type="float" value="10.0" />
+      </object>
+    </object>
+    <object name="Group">
+      <object name="ALL">
+        <WriteOnlyProperty name="ClearEvents" type="bool" value="false" />
+        <ReadWriteProperty name="OnOff" type="bool" value="false" />
+      </object>
+    </object>
+    <object name="Module">
+      <object name="0">
+        <WriteOnlyProperty name="ClearEvents" type="bool" value="false" />
+      </object>
+    </object>
+  </object>
+  <object name="PowerSupply">
+    <ReadOnlyProperty name="OperatingTime" type="int" value="0" />
+  </object>
+  <object name="System">
+    <ReadOnlyProperty name="Description" type="string" value="HMP4040 Power Supply --&gt; W-IE-NE-R MPOD" />
+    <ReadOnlyProperty name="NetworkAddress" type="string" value="192.168.2.60" />
+    <ReadOnlyProperty name="NetworkAddressStatic" type="string" value="192.168.2.60" />
+    <ReadWriteProperty name="OnOff" type="bool" value="false" />
+    <object name="Status">
+      <ReadOnlyProperty name="FailureInput" type="bool" value="false" />
+      <ReadOnlyProperty name="FailureOutput" type="bool" value="false" />
+      <ReadOnlyProperty name="Inhibit" type="bool" value="false" />
+      <ReadOnlyProperty name="On" type="bool" value="true" />
+    </object>
+    <ReadOnlyProperty name="UpTime" type="int" value="0" />
+  </object>
+  <ReadWriteProperty name="address" type="string" value="192.168.2.60" />
+</datapoints>
